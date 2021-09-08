@@ -1,7 +1,7 @@
 {
     "python.autoComplete.addBrackets": true,
-    "python.defaultInterpreterPath": //INSERT INTERPRTER FOR ENVRIONMENT HERE
-    "python.pipenvPath": //INSERT ACTIVATION FILE PATH HERE,
+    "python.defaultInterpreterPath": "/home/geno1664/Developments/Github_Samples/RDS-ENV/bin/python3",
+    "python.pipenvPath": "/home/geno1664/Developments/Github_Samples/RDS-ENV/bin/activate",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.executeInFileDir": true
 }
