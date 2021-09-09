@@ -1,6 +1,17 @@
 #Created <Put Creation Date in ISO here!>
 #Copyright Spencer W. Leifeld
 
-class Transformations:
+#Public Library Imports
+import statistics
 
-class Mappings:
+from pyspark.sql.types import StringType, StructField
+
+def ZScore_UDF(column):
+    mean = statistics.mean(column)
+    std = statistics.stdev(column)
+
+    for c in column:
+        c = (c - mean)/std
+
+    return column
+        

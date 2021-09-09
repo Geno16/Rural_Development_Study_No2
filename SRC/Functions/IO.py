@@ -21,5 +21,10 @@ class CSV_File:
             mode = 'append'
         else:
             mode = 'overwrite'
+
         if aColumns is None:
-            aDataframe.to_koalas().to_csv(aPath, na_rep='N/A', date_format='yyyy-mm-dd', mode=mode, index_col=aIndexColumns)
+            aDataframe = aDataframe.to_koalas()
+            aDataframe.to_csv(aPath, na_rep='N/A', date_format='yyyy-mm-dd', mode=mode, index_col=aIndexColumns)
+        else:
+            aDataframe = aDataframe.to_koalas()
+            aDataframe.to_csv(aPath, na_rep='N/A', date_format='yyyy-mm-dd', mode=mode, index_col=aIndexColumns, columns=aColumns)
