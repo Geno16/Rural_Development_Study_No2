@@ -17,7 +17,7 @@ I hypothesise, therefore:
 
 ## Source
 The Main data source was:
-[Atlas of Rural and Small-Town America](https://catalog.data.gov/dataset/atlas-of-rural-and-small-town-america")
+[Atlas of Rural and Small-Town America](https://catalog.data.gov/dataset/atlas-of-rural-and-small-town-america)
 The following Pages where used:
 - [Jobs](IO/Jobs.csv)
 - [People](IO/People.csv)
