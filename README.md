@@ -22,8 +22,8 @@ The following Pages where used:
 - [Jobs](IO/Jobs.csv)
 - [People](IO/People.csv)
 
-## Experimental Catagories
-### Explanation of Catagories
+# Methodology
+## Explanation of Catagories
 The job catagories are the percantages of the population who work in each secot of the economy, while the education catagories indicate what percentageof   the population holds each kind of educational prospects in rural society.
 ### Job Catagories
 - Civil_Servants - All the bureaucrats, police officers, teachers, and other workers of the State.
@@ -45,6 +45,14 @@ The job catagories are the percantages of the population who work in each secot 
   - Some_College
   - High_School_Degree
   - Some_High_School
+    
+## Procedure
+### For Both Hypothesese
+The Job and population tables were cut down to just the neccessary columns using a selection statement. To test both the hypothesese, I took all the data points and did a long pivot, doing a mean in the process. I then did a wide pivot to turn the education into the columns for the first hypohtesis, and did a wide pivot on the Job Catagory for the second hypthesis.
+### For the First Hypothsis
+The columns were grouped together by wheteher they were a portion of the population of the population that graduated college or not. Next, a correlation check was done to see if there was a significant difference between the group that was college educated vs. not in each sector of the economy.
+### For the Second Hypothesis
+All of the rows were summed together, to find the total percentage in each position within the economy.
     
 # Results
 ## Numerical Outcomes
